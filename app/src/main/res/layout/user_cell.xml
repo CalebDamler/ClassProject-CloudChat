@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cell_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/bee" />
+
+    <TextView
+        android:id="@+id/cell_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cell_image"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/cell_image"
+        android:text="Name"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/cell_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cell_name"
+        android:layout_below="@+id/cell_name"
+        android:layout_marginTop="10dp"
+        android:text="Status"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

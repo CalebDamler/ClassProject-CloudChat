@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.caleb.chat.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Cloud Chat"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/logRegBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/new_account" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logRegBtn"
+        android:layout_alignEnd="@+id/logRegBtn"
+        android:layout_alignStart="@+id/logRegBtn"
+        android:layout_marginBottom="63dp"
+        android:text="Login" />
+</RelativeLayout>

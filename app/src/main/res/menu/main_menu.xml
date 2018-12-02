@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainSettings"
+        android:title="Account Settings" />
+    <item
+        android:id="@+id/mainAll"
+        android:title="All Useres" />
+    <item
+        android:id="@+id/mainLogOut"
+        android:title="@string/log_out" />
+    <item
+        android:id="@+id/SendMessage"
+        android:title="Send Message" />
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.caleb.chat.UpdateStatus">
+
+    <include
+        android:id="@+id/status_appBar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/statusInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_appBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="63dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tectStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Status" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/ChangeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Save Changes" />
+
+</RelativeLayout>

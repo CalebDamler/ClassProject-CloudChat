@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="new_account">NEW ACCOUNT</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_status">Update Status</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="change_status">Change Status</string>
+    <string name="setting_display_name">setting_display_name</string>
+
+</resources>

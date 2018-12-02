@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.caleb.chat.SettingsActivity">
+
+    <ImageView
+        android:id="@+id/settingsImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/bee" />
+
+    <TextView
+        android:id="@+id/settingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/setting_display_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:id="@+id/settingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/update_status"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <Button
+        android:id="@+id/settingPicChangeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/settingsImg"
+        android:layout_below="@+id/settingStatus"
+        android:layout_marginTop="78dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/change_picture"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/settingStatusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/settingPicChangeBtn"
+        android:layout_alignStart="@+id/settingPicChangeBtn"
+        android:layout_below="@+id/settingPicChangeBtn"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/change_status"
+        android:textAlignment="center" />
+
+</RelativeLayout>
